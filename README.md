@@ -1,0 +1,2 @@
+# USTC_Auto_HealthReporting
+中国歪比巴卜大学自动健康打卡服务器脚本
