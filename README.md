@@ -1,10 +1,10 @@
 # USTC_Auto_HealthReporting
-中国歪比巴卜大学自动健康打卡服务器脚本
-感谢xbb1973/USTC-ncov-AutoReport的启发
-(虽然那个脚本貌似已经因为CAS的升级而失效了
-(不过2021年了，打卡的人也更少了((
-仅供学习参考使用
-写了一个2021年6月可用的python脚本,需要挂在服务器上(以后或许会琢磨其他更方便的途径)
+中国歪比巴卜大学自动健康打卡服务器脚本</br>
+感谢xbb1973/USTC-ncov-AutoReport的启发</br>
+(虽然那个脚本貌似已经因为CAS的升级而失效了</br>
+(不过2021年了，打卡的人也更少了((</br>
+仅供学习参考使用</br>
+写了一个2021年6月可用的python脚本,需要挂在服务器上(以后或许会琢磨其他更方便的途径)</br>
 - ## 使用方法
 ```shell
 nohup python/python3 report.py jsonfile.json logfile.log >/dev/null 2>&1 &
