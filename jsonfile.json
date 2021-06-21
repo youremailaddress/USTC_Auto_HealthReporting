@@ -1,0 +1,18 @@
+{
+    "data":[
+        {
+            "username":"xxxxxxxx",
+            "password":"xxxxxxxx",
+            "max_retry_times":5,
+            "time_hour":7,
+            "time_minute":5
+        },
+      {
+            "username":"xxxxxxxx",
+            "password":"xxxxxxxx",
+            "max_retry_times":10,
+            "time_hour":13,
+            "time_minute":11
+        }
+    ]
+}
