@@ -1,6 +1,6 @@
 # USTC_Auto_HealthReporting
 中国歪比巴卜大学自动健康打卡服务器脚本</br>
-感谢xbb1973/USTC-ncov-AutoReport的启发</br>
+感谢[xbb1973/USTC-ncov-AutoReport]("https://github.com/xbb1973/USTC-ncov-AutoReport")的启发</br>
 (虽然那个脚本貌似已经因为CAS的升级而失效了</br>
 (不过2021年了，打卡的人也更少了((</br>
 仅供学习参考使用</br>
