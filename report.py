@@ -205,7 +205,7 @@ def post_data(cookies,token):
         return False
 
 def do_report(stuid,password,maxretry):
-    log(1,"Start to do_report for"+stuid)
+    log(1,"Start to do_report for "+stuid)
     while maxretry > 0:
         first_cookies = login(stuid,password)
         if first_cookies == None:
@@ -256,6 +256,9 @@ try:
                 data.remove(cop[i])
         if data == [] and update_data == True:
             log(2,"Today's work done.")
+            update_data = False
+        if now.hour == 23 and now.minute == 59 and now.second >30 and update_data == True:
+            log(2,"Today's work done.(May forget some users requests due to time)")
             update_data = False
         if update_data == False:
             a = getRestSeconds()
