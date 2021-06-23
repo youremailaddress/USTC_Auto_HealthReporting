@@ -259,8 +259,9 @@ try:
             update_data = False
         if now.hour == 23 and now.minute == 59 and now.second >30 and update_data == True:
             log(2,"Today's work done.(May forget some users requests due to time)")
+            time.sleep(30)
             update_data = False
-        if update_data == False:
+        elif update_data == False:
             a = getRestSeconds()
             if a < 100:
                 continue
