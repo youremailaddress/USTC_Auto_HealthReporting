@@ -231,8 +231,7 @@ def do_report(stuid,password,maxretry):
 
 def getRestSeconds():
     tz = pytz.timezone('Asia/Shanghai')
-    now = datetime.now()
-    now = tz.localize(now)
+    now = datetime.now(tz)
     today_begin = datetime(now.year, now.month, now.day, 0, 0, 0)
     today_begin = tz.localize(today_begin)
     rest_seconds = 86400 - (now -today_begin).seconds
@@ -260,7 +259,6 @@ try:
             update_data = False
         if update_data == False:
             a = getRestSeconds()
-            print(a)
             if a < 100:
                 continue
             else:
@@ -269,4 +267,4 @@ try:
                 log(2,"Wake up")
         time.sleep(10)
 except Exception as e:
-    log(2,str(e))
+    log(3,str(e))
