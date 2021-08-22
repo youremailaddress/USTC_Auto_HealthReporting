@@ -5,6 +5,10 @@
 (不过2021年了，打卡的人也更少了((</br>
 仅供学习参考使用</br>
 写了一个2021年6月可用的python脚本,需要挂在服务器上(以后或许会琢磨其他更方便的途径)</br>
+
+- 2021.08.22 UPDATE：
+- 学校CAS又改了，新增数字验证码，有空补坑
+
 - ## 使用方法
 ```shell
 nohup python/python3 report.py jsonfile.json logfile.log >/dev/null 2>&1 &
